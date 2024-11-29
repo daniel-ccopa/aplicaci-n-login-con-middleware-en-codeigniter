@@ -1,0 +1,1450 @@
+INFO - 2024-11-29 00:36:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 06:26:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 06:34:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 07:12:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 07:22:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 07:26:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 07:26:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 07:28:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 08:03:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 08:03:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 08:03:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 08:11:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 08:25:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 08:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 08:53:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 09:10:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 09:38:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 10:12:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 10:15:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 10:27:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 11:12:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 11:14:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 12:20:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 12:47:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 15:18:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 15:34:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 15:34:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 15:34:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 15:34:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 15:34:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 15:34:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 15:37:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 15:37:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 15:37:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 15:59:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 15:59:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-29 16:25:32 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /var/www/html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /var/www/html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /var/www/html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#6 /var/www/html/app/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+#7 /var/www/html/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#8 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /var/www/html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /var/www/html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/html/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/html/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#5 /var/www/html/app/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+#6 /var/www/html/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#7 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-11-29 16:25:32 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /var/www/html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /var/www/html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /var/www/html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#6 /var/www/html/app/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+#7 /var/www/html/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#8 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /var/www/html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /var/www/html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/html/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/html/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#5 /var/www/html/app/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+#6 /var/www/html/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#7 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-11-29 16:25:34 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->login()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-11-29 16:25:32 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /var/www/html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /var/www/html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /var/www/html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#6 /var/www/html/app/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+#7 /var/www/html/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#8 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /var/www/html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /var/www/html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/html/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/html/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#5 /var/www/html/app/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+#6 /var/www/html/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#7 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-11-29 16:25:34 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->login()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-29 16:25:34 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->login()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-11-29 16:25:34 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /var/www/html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /var/www/html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /var/www/html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#6 /var/www/html/app/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+#7 /var/www/html/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#8 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /var/www/html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /var/www/html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/html/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/html/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#5 /var/www/html/app/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+#6 /var/www/html/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#7 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-11-29 16:25:35 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->login()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-29 16:25:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 16:25:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 16:26:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 16:26:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 16:26:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-29 16:26:09 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /var/www/html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /var/www/html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /var/www/html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#6 /var/www/html/app/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+#7 /var/www/html/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#8 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /var/www/html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /var/www/html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/html/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/html/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#5 /var/www/html/app/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+#6 /var/www/html/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#7 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-11-29 16:26:09 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->login()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-29 16:26:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-29 16:26:10 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /var/www/html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /var/www/html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /var/www/html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#6 /var/www/html/app/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+#7 /var/www/html/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#8 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /var/www/html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /var/www/html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/html/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/html/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#5 /var/www/html/app/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+#6 /var/www/html/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#7 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-11-29 16:26:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->login()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-29 16:26:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-29 16:26:10 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /var/www/html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /var/www/html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /var/www/html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#6 /var/www/html/app/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+#7 /var/www/html/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#8 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /var/www/html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /var/www/html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/html/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/html/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#5 /var/www/html/app/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+#6 /var/www/html/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#7 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-11-29 16:26:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->login()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-29 16:26:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 16:26:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-29 16:26:10 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /var/www/html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /var/www/html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /var/www/html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#6 /var/www/html/app/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+#7 /var/www/html/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#8 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /var/www/html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /var/www/html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/html/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/html/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#5 /var/www/html/app/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+#6 /var/www/html/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#7 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-11-29 16:26:11 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->login()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-29 16:26:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-29 16:26:12 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /var/www/html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /var/www/html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /var/www/html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#6 /var/www/html/app/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+#7 /var/www/html/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#8 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /var/www/html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /var/www/html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/html/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/html/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#5 /var/www/html/app/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+#6 /var/www/html/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#7 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-11-29 16:26:12 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->login()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-29 16:26:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-29 16:26:13 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /var/www/html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /var/www/html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /var/www/html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#6 /var/www/html/app/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+#7 /var/www/html/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#8 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /var/www/html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /var/www/html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/html/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/html/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#5 /var/www/html/app/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+#6 /var/www/html/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#7 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-11-29 16:26:13 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->login()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-29 16:26:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-29 16:26:13 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /var/www/html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /var/www/html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /var/www/html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#6 /var/www/html/app/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+#7 /var/www/html/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#8 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /var/www/html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /var/www/html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/html/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/html/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#5 /var/www/html/app/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+#6 /var/www/html/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#7 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-11-29 16:26:13 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->login()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-29 16:26:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-29 16:26:14 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /var/www/html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /var/www/html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /var/www/html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#6 /var/www/html/app/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+#7 /var/www/html/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#8 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /var/www/html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /var/www/html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/html/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/html/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#5 /var/www/html/app/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+#6 /var/www/html/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#7 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-11-29 16:26:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->login()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-29 16:26:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-29 16:26:19 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /var/www/html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /var/www/html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /var/www/html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#6 /var/www/html/app/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+#7 /var/www/html/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#8 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /var/www/html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /var/www/html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/html/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/html/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#5 /var/www/html/app/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+#6 /var/www/html/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#7 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-11-29 16:26:19 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->login()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-29 16:26:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-29 16:26:24 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /var/www/html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /var/www/html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /var/www/html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#6 /var/www/html/app/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+#7 /var/www/html/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#8 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /var/www/html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /var/www/html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/html/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/html/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#5 /var/www/html/app/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+#6 /var/www/html/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#7 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-11-29 16:26:24 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->login()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-29 16:26:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-29 16:26:26 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /var/www/html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /var/www/html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /var/www/html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#6 /var/www/html/app/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+#7 /var/www/html/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#8 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /var/www/html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /var/www/html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/html/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/html/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#5 /var/www/html/app/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+#6 /var/www/html/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#7 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-11-29 16:26:26 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->login()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-29 16:26:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-29 16:26:27 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /var/www/html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /var/www/html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /var/www/html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#6 /var/www/html/app/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+#7 /var/www/html/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#8 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /var/www/html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /var/www/html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/html/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/html/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#5 /var/www/html/app/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+#6 /var/www/html/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#7 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-11-29 16:26:27 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->login()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-29 16:26:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-29 16:26:27 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /var/www/html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /var/www/html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /var/www/html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#6 /var/www/html/app/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+#7 /var/www/html/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#8 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /var/www/html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /var/www/html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/html/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/html/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#5 /var/www/html/app/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+#6 /var/www/html/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#7 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-11-29 16:26:28 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->login()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-29 16:26:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-29 16:26:29 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /var/www/html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /var/www/html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /var/www/html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#6 /var/www/html/app/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+#7 /var/www/html/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#8 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /var/www/html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /var/www/html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/html/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/html/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#5 /var/www/html/app/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+#6 /var/www/html/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#7 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-11-29 16:26:29 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->login()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-29 16:26:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-29 17:34:36 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /var/www/html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /var/www/html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /var/www/html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#6 /var/www/html/app/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+#7 /var/www/html/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#8 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /var/www/html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /var/www/html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/html/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/html/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#5 /var/www/html/app/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+#6 /var/www/html/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#7 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-11-29 17:51:21 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->login()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-29 17:51:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 17:51:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-29 17:51:23 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /var/www/html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /var/www/html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /var/www/html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#6 /var/www/html/app/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+#7 /var/www/html/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#8 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /var/www/html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /var/www/html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/html/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/html/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#5 /var/www/html/app/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+#6 /var/www/html/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#7 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-11-29 17:51:23 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->login()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-11-29 17:51:23 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /var/www/html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /var/www/html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /var/www/html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#6 /var/www/html/app/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+#7 /var/www/html/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#8 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /var/www/html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /var/www/html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/html/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/html/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#5 /var/www/html/app/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+#6 /var/www/html/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#7 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-11-29 17:51:23 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->login()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-29 17:51:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-29 17:51:24 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /var/www/html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /var/www/html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /var/www/html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#6 /var/www/html/app/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+#7 /var/www/html/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#8 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /var/www/html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /var/www/html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/html/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/html/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#5 /var/www/html/app/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+#6 /var/www/html/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#7 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-11-29 17:51:24 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->login()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-29 17:51:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 17:51:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-29 17:51:26 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /var/www/html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /var/www/html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /var/www/html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#6 /var/www/html/app/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+#7 /var/www/html/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#8 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /var/www/html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /var/www/html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/html/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/html/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#5 /var/www/html/app/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+#6 /var/www/html/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#7 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-11-29 17:51:26 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->login()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-29 17:51:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-29 17:51:26 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /var/www/html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /var/www/html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /var/www/html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#6 /var/www/html/app/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+#7 /var/www/html/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#8 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /var/www/html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /var/www/html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/html/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/html/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#5 /var/www/html/app/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+#6 /var/www/html/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#7 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-11-29 17:51:26 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->login()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-29 17:51:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-29 17:51:27 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /var/www/html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /var/www/html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /var/www/html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#6 /var/www/html/app/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+#7 /var/www/html/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#8 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /var/www/html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /var/www/html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/html/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/html/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#5 /var/www/html/app/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+#6 /var/www/html/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#7 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-11-29 17:51:27 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->login()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-29 17:51:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-29 17:51:27 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /var/www/html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /var/www/html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /var/www/html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#6 /var/www/html/app/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+#7 /var/www/html/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#8 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /var/www/html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /var/www/html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/html/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/html/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#5 /var/www/html/app/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+#6 /var/www/html/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#7 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-11-29 17:51:28 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->login()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-29 17:51:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-29 17:51:29 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /var/www/html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /var/www/html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /var/www/html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#6 /var/www/html/app/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+#7 /var/www/html/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#8 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /var/www/html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /var/www/html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/html/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/html/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#5 /var/www/html/app/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+#6 /var/www/html/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#7 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-11-29 17:51:29 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->login()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-29 17:51:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-29 17:51:31 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /var/www/html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /var/www/html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /var/www/html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#6 /var/www/html/app/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+#7 /var/www/html/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#8 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /var/www/html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /var/www/html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/html/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/html/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#5 /var/www/html/app/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+#6 /var/www/html/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#7 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-11-29 17:51:31 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->login()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-29 17:51:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-29 17:51:32 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /var/www/html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /var/www/html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /var/www/html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#6 /var/www/html/app/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+#7 /var/www/html/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#8 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /var/www/html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /var/www/html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/html/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/html/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#5 /var/www/html/app/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+#6 /var/www/html/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#7 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-11-29 17:51:32 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->login()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-29 17:51:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-29 17:51:34 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /var/www/html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /var/www/html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /var/www/html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#6 /var/www/html/app/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+#7 /var/www/html/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#8 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /var/www/html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /var/www/html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/html/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/html/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#5 /var/www/html/app/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+#6 /var/www/html/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#7 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-11-29 17:51:34 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->login()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-29 17:51:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-29 17:51:36 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /var/www/html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /var/www/html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /var/www/html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#6 /var/www/html/app/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+#7 /var/www/html/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#8 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /var/www/html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /var/www/html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/html/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/html/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#5 /var/www/html/app/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+#6 /var/www/html/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#7 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-11-29 17:51:36 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->login()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-29 17:51:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-29 17:51:37 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /var/www/html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /var/www/html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /var/www/html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#6 /var/www/html/app/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+#7 /var/www/html/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#8 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /var/www/html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /var/www/html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/html/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/html/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#5 /var/www/html/app/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+#6 /var/www/html/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#7 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-11-29 17:51:37 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->login()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-29 17:51:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-29 17:51:38 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /var/www/html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /var/www/html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /var/www/html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#6 /var/www/html/app/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+#7 /var/www/html/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#8 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /var/www/html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /var/www/html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/html/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/html/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#5 /var/www/html/app/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+#6 /var/www/html/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#7 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-11-29 17:51:38 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->login()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-29 17:51:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-29 17:51:39 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /var/www/html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /var/www/html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /var/www/html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#6 /var/www/html/app/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+#7 /var/www/html/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#8 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /var/www/html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /var/www/html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/html/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/html/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#5 /var/www/html/app/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+#6 /var/www/html/system/CodeIgniter.php(941): App\Controllers\UserController->login()
+#7 /var/www/html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-11-29 17:51:39 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/UserController.php(27): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->login()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-11-29 18:06:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 18:43:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 19:50:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 20:48:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 20:48:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 20:57:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 21:02:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 21:09:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 21:15:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 21:15:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 21:15:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 21:31:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 21:31:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 21:32:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 21:33:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 21:33:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 21:33:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-29 21:35:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

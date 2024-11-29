@@ -1,0 +1,60 @@
+# Disable directory browsing
+Options -Indexes
+
+# ----------------------------------------------------------------------
+# Enable Rewrite Engine
+# ----------------------------------------------------------------------
+<IfModule mod_rewrite.c>
+    Options +FollowSymlinks
+    RewriteEngine On
+
+    # Base URL: Cambia si CodeIgniter está en un subdirectorio
+    RewriteBase /
+
+    # Redirigir slashes finales (Trailing Slashes) para URLs válidas
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_URI} (.+)/$
+    RewriteRule ^ %1 [L,R=301]
+
+    # Forzar redirección de "www" a sin "www"
+    RewriteCond %{HTTPS} !=on
+    RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+    RewriteRule ^ http://%1%{REQUEST_URI} [R=301,L]
+
+    # Redirigir todas las solicitudes que no sean archivos o directorios al controlador principal (index.php)
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)$ index.php/$1 [L,NC,QSA]
+
+    # Asegurar que el encabezado Authorization pase correctamente
+    RewriteCond %{HTTP:Authorization} .
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+</IfModule>
+
+<IfModule !mod_rewrite.c>
+    # Si mod_rewrite no está disponible, manejar errores 404 con index.php
+    ErrorDocument 404 /index.php
+</IfModule>
+
+# ----------------------------------------------------------------------
+# Seguridad del Servidor
+# ----------------------------------------------------------------------
+# Ocultar información de servidor
+ServerSignature Off
+
+# Evitar acceso a archivos sensibles
+<Files .*>
+    Order Deny,Allow
+    Deny from all
+</Files>
+
+<Files "index.php">
+    Allow from all
+</Files>
+
+# Proteger .htaccess de accesos externos
+<Files ~ "^\.ht">
+    Order Deny,Allow
+    Deny from all
+</Files>
+
